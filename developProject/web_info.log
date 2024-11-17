@@ -1,0 +1,56 @@
+2024-11-17 15:22:37.768 [main] INFO  com.zhang.FlowApplication - Starting FlowApplication using Java 1.8.0_161 on zch with PID 16136 (D:\develop\Project\ideaProject\flow\target\classes started by Administrator in D:\develop\Project\ideaProject\flow)
+2024-11-17 15:22:37.815 [main] INFO  com.zhang.FlowApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-17 15:22:49.613 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2024-11-17 15:22:49.675 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2024-11-17 15:22:49.706 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-17 15:22:49.706 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.78]
+2024-11-17 15:22:52.690 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-17 15:22:52.690 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 14379 ms
+2024-11-17 15:22:57.328 [main] INFO  o.f.spring.boot.ProcessEngineAutoConfiguration - No deployment resources were found for autodeployment
+2024-11-17 15:22:58.737 [main] INFO  o.f.spring.boot.cmmn.CmmnEngineAutoConfiguration - No deployment resources were found for autodeployment
+2024-11-17 15:22:58.950 [main] INFO  o.f.spring.boot.dmn.DmnEngineAutoConfiguration - No deployment resources were found for autodeployment
+2024-11-17 15:22:59.030 [main] INFO  o.f.spring.boot.form.FormEngineAutoConfiguration - No deployment resources were found for autodeployment
+2024-11-17 15:22:59.108 [main] INFO  o.f.s.b.e.EventRegistryAutoConfiguration - No deployment resources were found for autodeployment
+2024-11-17 15:22:59.171 [main] INFO  o.f.spring.boot.app.AppEngineAutoConfiguration - No deployment resources were found for autodeployment
+2024-11-17 15:22:59.218 [main] INFO  o.flowable.app.spring.SpringAppEngineConfiguration - Found 7 Engine Configurators in total:
+2024-11-17 15:22:59.233 [main] INFO  o.flowable.app.spring.SpringAppEngineConfiguration - class org.flowable.engine.spring.configurator.SpringProcessEngineConfigurator (priority:50000)
+2024-11-17 15:22:59.233 [main] INFO  o.flowable.app.spring.SpringAppEngineConfiguration - class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2024-11-17 15:22:59.233 [main] INFO  o.flowable.app.spring.SpringAppEngineConfiguration - class org.flowable.idm.spring.configurator.SpringIdmEngineConfigurator (priority:150000)
+2024-11-17 15:22:59.233 [main] INFO  o.flowable.app.spring.SpringAppEngineConfiguration - class org.flowable.dmn.spring.configurator.SpringDmnEngineConfigurator (priority:200000)
+2024-11-17 15:22:59.233 [main] INFO  o.flowable.app.spring.SpringAppEngineConfiguration - class org.flowable.form.spring.configurator.SpringFormEngineConfigurator (priority:300000)
+2024-11-17 15:22:59.233 [main] INFO  o.flowable.app.spring.SpringAppEngineConfiguration - class org.flowable.content.spring.configurator.SpringContentEngineConfigurator (priority:400000)
+2024-11-17 15:22:59.233 [main] INFO  o.flowable.app.spring.SpringAppEngineConfiguration - class org.flowable.cmmn.spring.configurator.SpringCmmnEngineConfigurator (priority:500000)
+2024-11-17 15:22:59.233 [main] INFO  o.flowable.app.spring.SpringAppEngineConfiguration - Executing beforeInit() of class org.flowable.engine.spring.configurator.SpringProcessEngineConfigurator (priority:50000)
+2024-11-17 15:22:59.249 [main] INFO  o.flowable.app.spring.SpringAppEngineConfiguration - Executing beforeInit() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2024-11-17 15:22:59.265 [main] INFO  o.flowable.app.spring.SpringAppEngineConfiguration - Executing beforeInit() of class org.flowable.idm.spring.configurator.SpringIdmEngineConfigurator (priority:150000)
+2024-11-17 15:22:59.280 [main] INFO  o.flowable.app.spring.SpringAppEngineConfiguration - Executing beforeInit() of class org.flowable.dmn.spring.configurator.SpringDmnEngineConfigurator (priority:200000)
+2024-11-17 15:22:59.284 [main] INFO  o.flowable.app.spring.SpringAppEngineConfiguration - Executing beforeInit() of class org.flowable.form.spring.configurator.SpringFormEngineConfigurator (priority:300000)
+2024-11-17 15:22:59.284 [main] INFO  o.flowable.app.spring.SpringAppEngineConfiguration - Executing beforeInit() of class org.flowable.content.spring.configurator.SpringContentEngineConfigurator (priority:400000)
+2024-11-17 15:22:59.284 [main] INFO  o.flowable.app.spring.SpringAppEngineConfiguration - Executing beforeInit() of class org.flowable.cmmn.spring.configurator.SpringCmmnEngineConfigurator (priority:500000)
+2024-11-17 15:23:00.835 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-11-17 15:23:04.461 [main] INFO  o.flowable.app.spring.SpringAppEngineConfiguration - Executing configure() of class org.flowable.engine.spring.configurator.SpringProcessEngineConfigurator (priority:50000)
+2024-11-17 15:23:06.769 [main] INFO  org.flowable.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2024-11-17 15:23:07.453 [main] INFO  org.flowable.engine.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2024-11-17 15:23:07.547 [main] INFO  o.flowable.app.spring.SpringAppEngineConfiguration - Executing configure() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2024-11-17 15:23:13.264 [main] INFO  liquibase.changelog - Reading from zch.FLW_EV_DATABASECHANGELOG
+2024-11-17 15:23:13.389 [main] INFO  o.f.eventregistry.impl.EventRegistryEngineImpl - EventRegistryEngine default created
+2024-11-17 15:23:13.389 [main] INFO  o.flowable.app.spring.SpringAppEngineConfiguration - Executing configure() of class org.flowable.idm.spring.configurator.SpringIdmEngineConfigurator (priority:150000)
+2024-11-17 15:23:13.545 [main] INFO  org.flowable.idm.engine.impl.IdmEngineImpl - IdmEngine default created
+2024-11-17 15:23:13.545 [main] INFO  o.flowable.app.spring.SpringAppEngineConfiguration - Executing configure() of class org.flowable.dmn.spring.configurator.SpringDmnEngineConfigurator (priority:200000)
+2024-11-17 15:23:17.452 [main] INFO  liquibase.changelog - Reading from zch.ACT_DMN_DATABASECHANGELOG
+2024-11-17 15:23:17.515 [main] INFO  org.flowable.dmn.engine.impl.DmnEngineImpl - DmnEngine default created
+2024-11-17 15:23:17.515 [main] INFO  o.flowable.app.spring.SpringAppEngineConfiguration - Executing configure() of class org.flowable.form.spring.configurator.SpringFormEngineConfigurator (priority:300000)
+2024-11-17 15:23:19.606 [main] INFO  liquibase.changelog - Reading from zch.ACT_FO_DATABASECHANGELOG
+2024-11-17 15:23:19.637 [main] INFO  org.flowable.form.engine.impl.FormEngineImpl - FormEngine default created
+2024-11-17 15:23:19.653 [main] INFO  o.flowable.app.spring.SpringAppEngineConfiguration - Executing configure() of class org.flowable.content.spring.configurator.SpringContentEngineConfigurator (priority:400000)
+2024-11-17 15:23:19.665 [main] INFO  o.f.c.spring.SpringContentEngineConfiguration - Content file system root : C:\Users\Administrator.WIN-T1G2EI74SUC\content
+2024-11-17 15:23:21.293 [main] INFO  liquibase.changelog - Reading from zch.ACT_CO_DATABASECHANGELOG
+2024-11-17 15:23:21.317 [main] INFO  org.flowable.content.engine.impl.ContentEngineImpl - ContentEngine default created
+2024-11-17 15:23:21.320 [main] INFO  o.flowable.app.spring.SpringAppEngineConfiguration - Executing configure() of class org.flowable.cmmn.spring.configurator.SpringCmmnEngineConfigurator (priority:500000)
+2024-11-17 15:23:22.663 [main] INFO  liquibase.changelog - Reading from zch.ACT_CMMN_DATABASECHANGELOG
+2024-11-17 15:23:22.741 [main] INFO  org.flowable.cmmn.engine.impl.CmmnEngineImpl - CmmnEngine default created
+2024-11-17 15:23:25.771 [main] INFO  liquibase.changelog - Reading from zch.ACT_APP_DATABASECHANGELOG
+2024-11-17 15:23:25.802 [main] INFO  org.flowable.app.engine.impl.AppEngineImpl - AppEngine default created
+2024-11-17 15:23:27.598 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2024-11-17 15:23:28.129 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2024-11-17 15:23:28.254 [main] INFO  com.zhang.FlowApplication - Started FlowApplication in 53.567 seconds (JVM running for 62.819)
